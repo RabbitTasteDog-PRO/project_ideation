@@ -1,0 +1,2 @@
+"""Charger capacity filter renderers."""
+
