@@ -1,6 +1,14 @@
 from __future__ import annotations
 
+from pathlib import Path
+import sys
+
 import streamlit as st
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.append(str(PROJECT_ROOT))
 
 from src.api import get_charger_info, get_charger_status
 
@@ -17,4 +25,3 @@ def load_charger_info(api_key, zcode):
 def load_charger_status(api_key, zcode):
     # 선택 지역의 상태정보 요청
     return get_charger_status(api_key, zcode)
-
