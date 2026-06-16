@@ -1,2 +1,4 @@
-"""Regional charger usage map renderers."""
+"""`지역별 위치 지도` 렌더링 패키지.
 
+충전소 사용량 데이터의 지역 좌표를 지도에 표시한다.
+"""

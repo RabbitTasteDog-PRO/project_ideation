@@ -36,6 +36,10 @@ def render_available_charger_table(available_df, key_suffix):
 
     current_page = st.session_state[page_key]
 
+    if current_page > total_pages:
+        current_page = total_pages
+        st.session_state[page_key] = current_page
+
     start_index = (current_page - 1) * page_size
     end_index = start_index + page_size
 
@@ -133,4 +137,3 @@ def render_available_charger_table(available_df, key_suffix):
                 st.rerun()
 
     return selected_row
-

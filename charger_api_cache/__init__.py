@@ -1,2 +1,4 @@
-"""Cached EV charger API loaders."""
+"""전기차 충전소 API 캐시 로더 패키지.
 
+충전소 기본정보와 실시간 상태정보 API 응답을 Streamlit 캐시에 저장해 재사용한다.
+"""

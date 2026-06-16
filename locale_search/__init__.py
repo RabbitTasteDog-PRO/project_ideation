@@ -1,2 +1,4 @@
-"""Location based charger search UI modules."""
+"""`현재 사용 가능한 충전기 찾기` 검색 UI 패키지.
 
+지역 선택, API 조회, DB 불러오기/저장, 사용 가능 충전기 필터링 흐름을 담당한다.
+"""

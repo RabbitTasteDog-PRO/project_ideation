@@ -1,2 +1,4 @@
-"""Available charger map and table renderers."""
+"""사용 가능한 충전기 결과 화면 패키지.
 
+조회된 충전기 목록 테이블과 선택 위치 중심 지도를 렌더링한다.
+"""

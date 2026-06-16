@@ -26,4 +26,3 @@ REGION_CODES = {
 AVAILABLE_STATUS = "2"
 # 상태 코드를 화면 문구로 표시
 AVAILABLE_STATUS_LABEL = "충전 대기"
-

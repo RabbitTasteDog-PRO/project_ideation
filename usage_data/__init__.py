@@ -1,2 +1,4 @@
-"""Charger usage CSV data loading and preprocessing."""
+"""충전소 사용량 CSV 데이터 패키지.
 
+대시보드에 사용할 CSV 파일을 읽고 사용량 컬럼을 식별한다.
+"""
